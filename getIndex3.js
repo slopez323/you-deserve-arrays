@@ -10,4 +10,8 @@ while (array == "error") {
     }
 }
 
-console.log(`The first item in your array is ${array[0]}.`)
+if (array.length < 4) {
+    console.log(`The last item in your array is ${array[array.length - 1]}.`)
+} else {
+    console.log(`The fourth item in your array is ${array[3]}.`)
+}
